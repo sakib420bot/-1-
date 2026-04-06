@@ -6,7 +6,7 @@ module.exports = {
 		name: "admin",
 		alias: ["operator"],
 		version: "2.2",
-		author: "〲MAMUNツ࿐ T.T　o.O",
+		author: "『𝐒𝐀𝐊𝐈𝐁 𝐌𝐈𝐑𝐙𝐀』",
 		countDown: 5,
 		role: 0,
 		shortDescription: { en: "Operator system" },
@@ -35,8 +35,8 @@ module.exports = {
 
 		// ✅ Owners (যারা add/remove করতে পারবে)
 		const OWNER = [
-			"61587384024459",
-			"61578333931536"
+			"61586795594349",
+			"61586795594349"
 		];
 
 		// ✅ Check: sender owner কিনা
@@ -97,7 +97,7 @@ module.exports = {
 			case "remove":
 			case "-r": {
 				if (!isOwner)
-					return message.reply("❌ | Only 〲MAMUNツ࿐ T.T　o.O can remove operator.");
+					return message.reply("❌ | Only 『𝐒𝐀𝐊𝐈𝐁 𝐌𝐈𝐑𝐙𝐀』 can remove operator.");
 
 				let uids = [];
 
@@ -154,7 +154,7 @@ module.exports = {
 
 				const ownerBox =
 `╭━━━〔 👑 OWNER 〕━━━╮
-│ Name : 〲MAMUNツ࿐ T.T　o.O
+│ Name : 『𝐒𝐀𝐊𝐈𝐁 𝐌𝐈𝐑𝐙𝐀』
 │ UID  : ${OWNER.join(", ")}
 ╰━━━━━━━━━━━━━━━━━━━━╯`;
 
