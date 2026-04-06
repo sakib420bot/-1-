@@ -7,7 +7,7 @@ module.exports = {
     name: "left",
     eventType: ["log:unsubscribe"],
     version: "1.0",
-    author: "〲MAMUNツ࿐ T.T　o.O",
+    author: "『𝐒𝐀𝐊𝐈𝐁 𝐌𝐈𝐑𝐙𝐀』",
     description: "Send image when someone leaves"
   },
 
