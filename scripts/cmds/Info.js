@@ -4,9 +4,9 @@ const moment = require("moment-timezone");
 module.exports = {
   config: {
     name: "info",
-    aliases: ["admininfo", "botinfo", "mamun", "ownerinfo"],
+    aliases: ["admininfo", "botinfo", "sakib", "ownerinfo"],
     version: "1.4",
-    author: "亗🅼🅰ᥫᩣ🅼ᥫᩣ🆄🅽×͜×",
+    author: "Sakib",
     countDown: 5,
     role: 0,
     shortDescription: { en: "Show bot & owner info" },
@@ -18,15 +18,15 @@ module.exports = {
   onStart: async function ({ message }) {
 
     // OWNER INFO
-    const authorName = "×᷼×ＭＡ☂Ｍ☂ＵＮ☆";
-    const ownAge = "19+";
-    const messenger = "https://m.me/mamun.8192";
-    const authorFB = "MA M UN Bb'z";
-    const authorNumber = "+8801830981279";
-    const Status = "Single";
+    const authorName = " 𝙎𝙖𝙠𝙞𝙗 𝙢𝙞𝙧𝙯𝙖";
+    const ownAge = "➊➒+";
+    const messenger = "Mir za";
+    const authorFB = "Sak ib";
+    const authorNumber = "+8801790452366";
+    const Status = "⋆  🎀 𝙄𝙣 𝙖 𝙧𝙚𝙡𝙖𝙩𝙞𝙤𝙣𝙨𝙝𝙞𝙥 🎀  ⋆";
 
     // SAFE CATBOX VIDEO LINK
-    const videoLink = "https://files.catbox.moe/a03xbs.mp4";
+    const videoLink = "https://files.catbox.moe/7l8ah7.mp4";
 
     // BANGLADESH TIME
     const now = moment().tz("Asia/Dhaka");
